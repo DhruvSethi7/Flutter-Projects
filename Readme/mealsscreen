@@ -1,0 +1,15 @@
+Here we have get meals data of a particular category by using id of different meals
+
+TO make sure that image also respects the card border radius ,we use a Widget //ClipRRect to crop the image
+In this to make sure that the image fits in the card columm part where we used specific width and height ,
+  we used a fit argument like  //fit:Boxfit.cover
+
+Below the image we have three things:
+ 1.Duration
+ 2.Affordabilty
+ 3.Complexity
+ to get equal sizes we can either user mainaxisalignment.strech or Expanded widget
+
+
+Pushnamed           =>Here we get a stack of pages 
+Pushreplacementnamed=>Here we have only one page in a stack(we delete the previous page and replace it with new one)
